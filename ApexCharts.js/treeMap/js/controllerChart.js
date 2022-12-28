@@ -1,3 +1,9 @@
+/*
+Título: Gráfico treemap.
+Objetivo: Observar el comportamiento de un gráfico treemap con múltiples características.
+Autores: Gerardo Iturribarria Moya y Alan Mitchell Velasco González
+*/
+
 options = {
   series: [
     {
