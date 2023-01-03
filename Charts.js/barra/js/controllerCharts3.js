@@ -37,7 +37,7 @@ var data ={
   //config
   const config =new Chart (ctx, {
     type: 'bar',
-    data: data,
+     data,
     options: {
       scales: {
         y: {
