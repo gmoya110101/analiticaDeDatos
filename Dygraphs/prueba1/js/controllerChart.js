@@ -15,7 +15,11 @@ g = new Dygraph(
       // options go here. See http://dygraphs.com/options.html
       legend: 'always',
       animatedZooms: false,
+<<<<<<< HEAD
      
+=======
+      //title: 'dygraphs chart template'
+>>>>>>> b7572c13da35b71e9ad1a3d014139ec0534a9021
     });
 
     
