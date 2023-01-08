@@ -1,3 +1,18 @@
+/* 
+TITULO: Gráfico de pastel
+
+OBJETIVO: Un gráfico circular que se procesa dentro 
+          del navegador mediante SVG o VML Muestra 
+          la información sobre la herramienta cuando
+          se desplaza el cursor sobre secciones.
+
+AUTORES: ALAN MITCHELL VELASCO GONZÁLEZ, GERARDO ITURRIBARIA MOYA 
+
+*/
+
+
+
+
 google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
 

@@ -1,3 +1,14 @@
+/* 
+TITULO: Quitar secciones
+
+OBJETIVO: Para omitir una porción, cambia el color a 'transparent':
+
+AUTORES: ALAN MITCHELL VELASCO GONZÁLEZ, GERARDO ITURRIBARIA MOYA 
+
+*/
+
+
+
 google.charts.load("current", {packages:["corechart"]});
       google.charts.setOnLoadCallback(drawChart);
       function drawChart() {

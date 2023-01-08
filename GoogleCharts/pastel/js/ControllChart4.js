@@ -1,3 +1,14 @@
+/* 
+TITULO: GRÁFICA DE ANILLO
+
+OBJETIVO: Un gráfico de donas es un gráfico circular con un orificio en el centro. Puedes crear gráficos de anillo con la opción pieHole:
+
+AUTORES: ALAN MITCHELL VELASCO GONZÁLEZ, GERARDO ITURRIBARIA MOYA 
+
+*/
+
+
+
 google.charts.load("current", {packages:["corechart"]});
       google.charts.setOnLoadCallback(drawChart);
       function drawChart() {
@@ -12,9 +23,9 @@ google.charts.load("current", {packages:["corechart"]});
 
         var options = {
           title: 'My Daily Activities',
-          is3D: true,
+          pieHole: 0.4, //OPCION PARA CREAR EL ANILLO
         };
 
-        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
         chart.draw(data, options);
       }

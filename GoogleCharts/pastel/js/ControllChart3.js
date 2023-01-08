@@ -1,3 +1,17 @@
+/* 
+TITULO: GRÁFICA DE PASTEL OCUPANDO UNA OPCION LLAMADA pieHole
+
+OBJETIVO: Aquí, rotaremos el gráfico 100 grados en el sentido de las manecillas del reloj 
+               con una opción de pieStartAngle: 100. (Entonces, se elige porque ese ángulo en particular 
+              hace que la etiqueta "italiana" se ajuste a la porción).
+
+AUTORES: ALAN MITCHELL VELASCO GONZÁLEZ, GERARDO ITURRIBARIA MOYA 
+
+*/
+
+
+
+
 google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
 
@@ -9,7 +23,7 @@ google.charts.load('current', {'packages':['corechart']});
         ]);
 
         var options = {
-          pieHole: 0.5,
+          pieHole: 0.5,//hacer más ancha la gráfica
           pieSliceTextStyle: {
             color: 'black',
           },
