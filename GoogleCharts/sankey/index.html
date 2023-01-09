@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagrama de Sankey</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../lib/loader.js"></script>
+    <script type="text/javascript" src="js/showController.js"></script>
+
+</head>
+
+<body>
+    <h1>Diagramas de Sankey</h1>
+
+    <label>Selecciona un ejemplo a observar:</label>
+    <select id="cmbEjemplos" onchange="muestraEjemplo();">
+        <option value="1" selected>Ejemplo 1</option>
+        <option value="2">Ejemplo 2</option>
+        <option value="3">Ejemplo 3</option>
+        <option value="4">Ejemplo 4</option>
+        <option value="5">Ejemplo 5</option>
+        <option value="6">Ejemplo 6</option>
+        <option value="7">Ejemplo 7</option>
+    </select>
+    <br>
+    <div id="sankey_basic" class="contenedor" style="display: block;"></div>
+    <div id="sankey_multiple" class="contenedor"></div>
+    <div id="sankey_multiple_color" class="contenedor"></div>
+
+
+</body>
+
+<script type="text/javascript" src="js/controllerChart.js"></script>
+<script type="text/javascript" src="js/controllerChart2.js"></script>
+<script type="text/javascript" src="js/controllerChart3.js"></script>
+
+</html>

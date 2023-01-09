@@ -1,23 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script type="text/javascript" src="../lib/loader.js"></script>
-     
+    <link rel="stylesheet" href="../css/style.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Charts.js</title>
+    <script type="text/javascript" src="js/showController.js"></script>
 </head>
+
 <body>
     <h1>Gráfica de pastel con Google Charts</h1>
+
+    <label>Selecciona un ejemplo a observar:</label>
+    <select id="cmbEjemplos" onchange="muestraEjemplo();">
+        <option value="1" selected>Ejemplo 1</option>
+        <option value="2">Ejemplo 2</option>
+        <option value="3">Ejemplo 3</option>
+        <option value="4">Ejemplo 4</option>
+        <option value="5">Ejemplo 5</option>
+        <option value="6">Ejemplo 6</option>
+        <option value="7">Ejemplo 7</option>
+    </select>
+
     <!-- https://developers-dot-devsite-v2-prod.appspot.com/chart/interactive/docs/gallery/piechart.html#fullhtml  -->
-    <div id="piechart" style="width: 900px; height: 500px;"></div>     <!-- charts1-->
-    <!--<div id="piechart" style="width: 900px; height: 500px;"></div>--><!-- charts2-->
-    <!--<div id="donut_single" style="width: 900px; height: 500px;"></div>--><!-- charts3-->
-    <!--<div id="donutchart" style="width: 900px; height: 500px;"></div>--> <!-- charts4-->
-    <!--<div id="piechart_3d" style="width: 900px; height: 500px;"></div>--> <!-- charts5-->
-   <!--<div id="piechart" style="width: 900px; height: 500px;"></div>--> <!-- charts6-->
-    <!--<div id="pacman" style="width: 900px; height: 500px;"></div>--> <!-- charts7-->
+    <div id="piechart" class="contenedor" style="display: block;"></div> <!-- charts1-->
+    <div id="piechart2" class="contenedor"></div><!-- charts2-->
+    <div id="donut_single" class="contenedor"></div><!-- charts3-->
+    <div id="donutchart" class="contenedor"></div> <!-- charts4-->
+    <div id="piechart_3d" class="contenedor"></div> <!-- charts5-->
+    <div id="piechart3" class="contenedor"></div> <!-- charts6-->
+    <div id="pacman" class="contenedor"></div> <!-- charts7-->
 </body>
-<script src="../pastel/js/ControllChart1.js"></script>
+<script src="js/ControllChart1.js"></script>
+<script src="js/ControllChart2.js"></script>
+<script src="js/ControllChart3.js"></script>
+<script src="js/ControllChart4.js"></script>
+<script src="js/ControllChart5.js"></script>
+<script src="js/ControllChart6.js"></script>
+<script src="js/ControllChart7.js"></script>
+
 </html>

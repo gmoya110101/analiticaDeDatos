@@ -31,7 +31,7 @@ google.charts.load('current', {'packages':['corechart']});
           title: 'My Daily Activities'
         };
 
-        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        var chart = new google.visualization.PieChart(document.getElementById('piechart3'));
 
         chart.draw(data, options);
       }

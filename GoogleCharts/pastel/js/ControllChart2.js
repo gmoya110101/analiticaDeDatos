@@ -29,6 +29,6 @@ var options = {
   pieStartAngle: 360, //rotamos la gráfica 
 };
 
-  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  var chart = new google.visualization.PieChart(document.getElementById('piechart2'));
   chart.draw(data, options);
 }
