@@ -5,6 +5,8 @@ Chartist no se asusta si tiene agujeros en sus datos. En su lugar,
 representará las líneas en segmentos y manejará estos agujeros con gracia.
  Esto también le permite introducir una línea en un punto posterior o terminar 
  la serie antes que otras.
+
+ Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
 var chart = new Chartist.Line('.ct-chart', {

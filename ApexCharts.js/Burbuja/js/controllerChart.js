@@ -1,4 +1,15 @@
- var options = {
+/* 
+Titulo:Gráfica de Burbuja
+
+Objetivo: Un gráfico de burbujas es una variación de un gráfico de dispersión en el que los puntos de datos 
+          se reemplazan por burbujas y una dimensión adicional de los datos se representa en el tamaño de las burbujas. 
+
+Autores: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya 
+
+*/
+
+
+var options = {
     chart: {
         height: 350,
         type: 'bubble',

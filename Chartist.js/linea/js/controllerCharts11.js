@@ -5,6 +5,8 @@ Chartist proporciona una API simple para animar los elementos en
 el gráfico usando SMIL. Por lo general, puede lograr la mayoría de 
 las animaciones con animaciones CSS3, pero en algunos casos le gustaría
  animar propiedades SVG que no están disponibles en CSS.
+
+ Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
 var chart = new Chartist.Line('.ct-chart', {

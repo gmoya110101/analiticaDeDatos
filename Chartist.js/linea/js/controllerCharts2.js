@@ -1,3 +1,13 @@
+/*
+Titulo: Grafica de linea
+Objetivo: Las gráficas de línea son útiles cuando quieres mostrar los cambios en valor de una variable dada con respecto a 
+          los cambios en alguna otra variable. La otra variable usualmente es el tiempo. Por ejemplo, las gráficas de línea 
+          pueden ser usadas para mostrar la velocidad de un vehículo durante intervalos específicos de tiempo.
+
+ Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
+*/
+
+
 var data = {
   
 //etiquetas:'línea simple',

@@ -7,6 +7,8 @@ un límite inferior fijo que hará que el área se expanda.
 También puede usar la propiedad areaBase para especificar un valor de 
 datos que se usará para determinar la posición base de la forma del área 
 (esto es 0 de forma predeterminada).
+
+Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
 new Chartist.Line('.ct-chart', {

@@ -4,6 +4,8 @@
 ¡Adivina qué! Crear gráficos de barras horizontales es tan simple 
 como puede ser. No hay un nuevo tipo de gráfico que deba aprender, 
 basta con pasar una opción adicional.
+
+Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
 new Chartist.Bar('.ct-chart', {

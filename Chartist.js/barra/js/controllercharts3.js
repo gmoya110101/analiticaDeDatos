@@ -3,6 +3,9 @@
 /*
 Con la ayuda de los eventos de dibujo, podemos agregar una 
 forma SVG personalizada al pico de nuestras barras.
+
+
+Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
 // Create a simple bi-polar bar chart

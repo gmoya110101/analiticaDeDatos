@@ -4,6 +4,8 @@
 La animación de ruta se hace fácil con la API de ruta SVG .
  La API le permite modificar rutas SVG complejas y transformarlas 
  para diferentes estados de transformación de animación.
+
+ Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
 var chart = new Chartist.Line('.ct-chart', {

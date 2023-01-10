@@ -4,6 +4,8 @@
 Puede cambiar la posición de las etiquetas en los gráficos de barras
  y líneas fácilmente usando la positionopción dentro de la configuración
   del eje.
+
+  Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
 new Chartist.Bar('.ct-chart', {

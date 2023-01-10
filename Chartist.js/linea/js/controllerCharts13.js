@@ -6,6 +6,8 @@ para suavizar las líneas. Sin embargo, como todas las demás
 cosas en Chartist, ¡esto se puede personalizar fácilmente!
  Consulte la documentación de la API para obtener más opciones 
  de suavizado.
+
+ Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
 var chart = new Chartist.Line('.ct-chart', {

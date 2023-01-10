@@ -1,3 +1,13 @@
+/* 
+Titulo:Gráfica de Barras
+
+Objetivo: es una forma de representar gráficamente un conjunto de datos o valores mediante barras rectangulares de longitud 
+          proporcional a los valores representados. 
+
+Autores: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya 
+
+*/
+
 var options = {
     chart: { //inica el gráfico 
       type: 'bar', //se ingresa el tipo de gráfica 

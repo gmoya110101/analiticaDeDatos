@@ -6,6 +6,8 @@ un diagrama de dispersión. El objeto de datos se crea con un mecanismo
 aleatorio de estilo funcional. Hay una primera configuración de respuesta
  móvil que usa las opciones de respuesta para mostrar menos etiquetas en
   pantallas pequeñas.
+
+  Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 var times = function(n) {
     return Array.apply(null, new Array(n));

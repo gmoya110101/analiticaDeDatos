@@ -5,6 +5,8 @@ Como todas las configuraciones de un gráfico se pueden personalizar
 con el mecanismo de anulación de configuración receptiva de Chartist, 
 ¡puede crear un gráfico que se adapte a todas las condiciones de los 
 medios!
+
+Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
 new Chartist.Bar('.ct-chart', {
