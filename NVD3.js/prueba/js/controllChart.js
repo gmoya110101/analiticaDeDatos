@@ -1,3 +1,10 @@
+/*
+Título: Gráfico de Barras.
+Objetivo: Analizar el comportamiento del gráfico de barras con un par de características.
+Autores: Gerardo Iturribarria Moya y Alan Mitchell Velasco González
+*/
+
+
 
 //En (NVD3) se tiene que utilizar las mismas versiones en las librerias sino no serivrá a la hora de programar 
 

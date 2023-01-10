@@ -1,7 +1,7 @@
 /*
 Título: Gráfico de burbujas.
 Objetivo: Analizar el comportamiento del gráfico de burbujas con un par de características.
-Autores: Gerardo Iturribarria Moya y Alan Mitchell Velazco González
+Autores: Gerardo Iturribarria Moya y Alan Mitchell Velasco González
 */
 
 nv.addGraph(function() {
