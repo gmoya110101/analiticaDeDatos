@@ -1,3 +1,15 @@
+/* 
+Titulo:Gráfica de Pastel
+
+Objetivo: Un gráfico circular es un gráfico estadístico circular, que se divide en porciones para ilustrar la proporción numérica.
+          En un gráfico circular, la longitud del arco de cada sector es proporcional a la cantidad que representa.
+
+Autores: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya 
+
+*/
+
+
+
 var options = {
     chart: {
       type: 'pie',//tipo de gráfica

@@ -5,6 +5,8 @@ También puede dibujar solo las formas de área del gráfico de líneas.
 Las formas de área siempre se construirán alrededor de su base de área 
 (que se puede configurar en las opciones), lo que también le permite 
 dibujar áreas bipolares agradables.
+
+Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 new Chartist.Line('.ct-chart', {
     labels: [1, 2, 3, 4, 5, 6, 7, 8],

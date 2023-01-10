@@ -23,6 +23,8 @@ google.charts.load('current', {'packages':['corechart']});
         ]);
 
         var options = {
+          width: 600,
+          height: 500,
           pieHole: 0.5,//hacer más ancha la gráfica
           pieSliceTextStyle: {
             color: 'black',

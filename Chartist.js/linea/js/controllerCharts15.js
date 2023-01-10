@@ -5,6 +5,8 @@ Este ejemplo usa Moment.js en la función de interpolación de etiquetas
 para dar formato a un objeto de fecha. El eje fijo asegura que haya un 
 espacio correcto entre los puntos de datos, y el número de etiquetas 
 está determinado por el divisor.
+
+Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 var chart = new Chartist.Line('.ct-chart', {
     series: [

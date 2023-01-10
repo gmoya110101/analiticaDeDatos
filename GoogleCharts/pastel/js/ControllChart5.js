@@ -22,6 +22,8 @@ google.charts.load("current", {packages:["corechart"]});
         ]);
 
         var options = {
+          width: 600,
+          height: 500,
           title: 'My Daily Activities',
           is3D: true,//HACER GRÁFICA 3D
         };

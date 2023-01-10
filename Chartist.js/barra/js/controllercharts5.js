@@ -4,6 +4,8 @@
 También puede configurar su gráfico de barras para apilar las barras 
 de la serie una encima de la otra fácilmente usando la stackBarspropiedad
  en su configuración.
+
+ Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
 new Chartist.Bar('.ct-chart', {

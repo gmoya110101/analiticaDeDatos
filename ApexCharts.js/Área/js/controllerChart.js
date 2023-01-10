@@ -1,3 +1,16 @@
+/* 
+Titulo:Gráfica de Area
+
+Objetivo: Los gráficos de áreas permiten identificar tendencias en los datos en el transcurso del tiempo. Son parecidos a 
+          los gráficos de líneas, pero se diferencian en que el espacio situado debajo de las líneas está sombreado para que se aprecie 
+          mejor la magnitud de las tendencias.
+
+Autores: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya 
+
+*/
+
+
+
 var options = {
   chart: {
     height: 280,

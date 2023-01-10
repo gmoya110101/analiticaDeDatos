@@ -19,6 +19,8 @@ google.charts.load("current", {packages:["corechart"]});
         ]);
 
         var options = {
+          width: 600,
+          height: 500,
           legend: 'none',
           pieSliceText: 'none',
           pieStartAngle: 135,

@@ -6,7 +6,9 @@ seriesBarDistance que le permite hacer que las barras se superpongan
  entre sí. Esto se puede usar para usar mejor el espacio disponible 
  en el móvil. Cambie el tamaño de su navegador para ver el efecto de 
  la configuración receptiva.
-*/
+
+Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
+ */
 
 var data = {
     labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],

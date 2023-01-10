@@ -8,6 +8,8 @@ showArea¡e incluso la función de suavizado se puede anular por serie!
 ¿Y adivina qué? ¡Incluso puede anular la configuración de la serie en 
 la configuración receptiva! Consulte el código de ejemplo para obtener 
 más detalles.
+
+Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 var chart = new Chartist.Line('.ct-chart', {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8'],

@@ -4,6 +4,8 @@
 Un gráfico de barras bipolar con un límite de rango establecido con 
 alto y bajo. También hay una función de interpolación que se utiliza 
 para omitir todas las líneas/etiquetas impares de la cuadrícula.
+
+Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
 var data = {

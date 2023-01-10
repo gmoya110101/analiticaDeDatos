@@ -1,3 +1,15 @@
+/* 
+Titulo:Gráfica de sparkline
+
+Objetivo: Un minigráfico es un gráfico de líneas muy pequeño, normalmente dibujado sin ejes ni coordenadas. 
+          Presenta la forma general de la variación en alguna medida, como la temperatura o la cotización bursátil, 
+          de forma sencilla y muy condensada.
+
+Autores: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya 
+
+*/
+
+
 var options = {
   series: [{
     data: randomizeArray(sparklineData)

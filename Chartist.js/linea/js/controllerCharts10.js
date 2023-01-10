@@ -7,6 +7,8 @@ preocupaciones. Sin embargo, a veces probablemente le gustaría usar
 diferentes formas o incluso imágenes para sus gráficos. Una forma de 
 lograr esto es usar los eventos de dibujo y reemplazar o agregar formas 
 SVG personalizadas.
+
+Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
 

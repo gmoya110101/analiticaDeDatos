@@ -5,6 +5,8 @@
 fracciones incluso si sus datos no lo hacen? ¡No hay problema! 
 ¡Dígale al tipo Chartist que solo use números enteros y él hará 
 los cálculos!
+
+Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
 new Chartist.Line('.ct-chart', {

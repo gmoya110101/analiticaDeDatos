@@ -26,3 +26,15 @@ body {
   text-decoration: none;
   font-family: Helvetica, Arial;
 }
+
+#chart {
+  max-width: 650px;
+  margin: 35px auto;
+}
+
+h1{
+  color: #ccc;
+}
+label{
+  color: #ccc ;
+}

@@ -1,3 +1,14 @@
+/* 
+Titulo:Gráfica de Lineas
+
+Objetivo: Los gráficos de líneas permiten visualizar los cambios a lo largo de un rango continuo, como el tiempo o 
+          la distancia. La visualización del cambio con un gráfico de líneas permite ver de una sola vez la tendencia general 
+          y comparar simultáneamente varias tendencias.
+
+Autores: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya 
+
+*/
+
 var options = {
   chart: {
     height: 350,

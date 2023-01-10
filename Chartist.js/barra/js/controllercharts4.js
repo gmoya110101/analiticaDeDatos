@@ -5,6 +5,8 @@ Chartist averiguará si su navegador es compatible con ForeignObject
  y los utilizará para crear etiquetas basadas en elementos de texto 
  HTML normales. ¡Los estilos CSS multilínea y regulares son solo dos 
  de los muchos beneficios al usar ForeignObjects!
+
+ Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 new Chartist.Bar('.ct-chart', {
   labels: ['First quarter of the year', 'Second quarter of the year', 'Third quarter of the year', 'Fourth quarter of the year'],

@@ -5,11 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../lib/apexcharts.js"></script><!--Así se invoca la biblioteca-->
+    <script type="text/javascript" src="js/showController.js"></script>
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="css/style2.css">
     <title>Gráfica de Area</title>
 </head>
 <body>
     <h1>Gráfica de Área</h1>
-    <div id="chart"></div>
-    <script src="js/controllerChart.js"></script><!--Archivo Js que contiene el código-->
+    <label>Selecciona un ejemplo a observar:</label>
+    <select id="cmbEjemplos" onchange="muestraEjemplo();">
+        <option value="1" selected>Ejemplo 1</option>
+        <option value="2">Ejemplo 2</option>
+
+    </select>
+
+    <div id="chart" class="contenedor" style="display: block;" ></div>
+    <div id="wrapper" class="contenedor">    
+    
+    <div id="chart-area" ></div>
+    <div id="chart-bar" ></div>
+    </div>
+
+
+    
 </body>
+
+<script src="js/controllerChart.js"></script><!--Archivo Js que contiene el código-->
+<script src="js/controllerChart2.js"></script><!--Archivo Js que contiene el código-->
 </html>

@@ -7,6 +7,8 @@ barra por serie distribuida a lo largo del eje x. Si esta opción
  serie a Chartist que contenga los valores de la serie. En este 
  ejemplo puedes ver las ventas de camisetas de una tienda categorizadas
  por talla.
+
+ Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
 new Chartist.Bar('.ct-chart', {

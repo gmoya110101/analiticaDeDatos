@@ -1,3 +1,18 @@
+/* 
+Titulo:Gráfica de Dona/ Anillo
+
+Objetivo: Representan datos organizados únicamente en columnas o en filas de una hoja de cálculo. Al igual que un gráfico 
+          circular, un gráfico de anillos muestra la relacion de las partes con un todo, pero un gráfico de anillos puede contener más
+          de una serie de datos.
+
+Autores: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya 
+
+*/
+
+
+
+
+
 var options = {
     chart: {
       type: 'donut',//tipo de gráfica
