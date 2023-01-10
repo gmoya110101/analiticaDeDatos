@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../lib/d3.v6.min.js"></script>
     <script src="../lib/billboard.js"></script>
-    
+    <script src="js/showController.js"></script>
+
     <link rel="stylesheet" href="../css/billboard.css">
-    <!-- <link rel="stylesheet" href="$YOUR_PATH/theme/insight.css"> OTRO TEMA DE CSS-->
+    <link rel="stylesheet" href="../css/style.css">
     <title>gr&aacute;fico de barras</title>
 </head>
+
 <body>
     <h1>Prueba de gr&aacute;fico de barras.</h1>
-    
-    <div id="barChart_1"></div>
-    <div id="barChart_2"></div>
-    <script src="js/controlCharts.js"></script>--><!--Para activar el gráfico sencillo-->
 
-    <!--<div id="dataOrder"></div>
-    <script src="js/controlCharts2.js"></script><!--Para activar el gráfico avanzado-->
+    <label>Selecciona un ejemplo a observar:</label>
+    <select id="cmbEjemplos" onchange="muestraEjemplo();">
+        <option value="1" selected> Ejemplo 1</option>
+        <option value="2">Ejemplo 2</option>
+        <option value="3">Ejemplo 3</option>
+    </select>
+
+    <div id="barChart_1" class="contenedor" style="display: block;"></div>
+    <div id="barChart_2" class="contenedor"></div>
+    <div id="dataOrder" class="contenedor"></div>
+
 </body>
+
+<script src="js/controlCharts.js"></script><!--Para activar el gráfico sencillo-->
+<script src="js/controlCharts2.js"></script><!--Para activar el gráfico avanzado-->
+
 </html>

@@ -9,27 +9,36 @@
     <script src="../lib/billboard.js"></script>
 
     <link rel="stylesheet" href="../css/billboard.css">
-    <!-- <link rel="stylesheet" href="$YOUR_PATH/theme/insight.css"> OTRO TEMA DE CSS-->
+    <link rel="stylesheet" href="../css/style.css">
     <title>gr&aacute;fico de area</title>
+    <script type="text/javascript" src="js/showController.js"></script>
 </head>
 
 <body>
     <h1>Prueba de gr&aacute;fico de area.</h1>
 
-    <!--<div id="areaChart"></div>
-    <script src="js/controlCharts.js"></script>--><!--Para el primer ejemplo-->
+    <label>Selecciona un ejemplo a observar:</label>
+    <select id="cmbEjemplos" onchange="muestraEjemplo();">
+        <option value="1" selected>Ejemplo 1</option>
+        <option value="2">Ejemplo 2</option>
+        <option value="3">Ejemplo 3</option>
+        <option value="4">Ejemplo 4</option>
+        <option value="5">Ejemplo 5</option>
+        <option value="6">Ejemplo 6</option>
+    </select>
 
-    <!--<div id="above"></div>
-    <script src="js/controlCharts2.js"></script>--><!--Para el segundo ejemplo-->
-
-    <!--<div id="below_1"></div>
-    <div id="below_2"></div>
-    <script src="js/controlCharts3.js"></script>--><!--Para el tercer ejemplo-->
-
-    <div id="linearGradient_1"></div>
-    <div id="linearGradient_2"></div>
-    <script src="js/controlCharts4.js"></script>--><!--Para el cuarto ejemplo-->
+    <div id="areaChart" class="contenedor" style="display: block;"></div>
+    <div id="above" class="contenedor"></div>
+    <div id="below_1" class="contenedor"></div>
+    <div id="below_2" class="contenedor"></div>
+    <div id="linearGradient_1" class="contenedor"></div>
+    <div id="linearGradient_2" class="contenedor"></div>
 
 </body>
+
+<script src="js/controlCharts.js"></script>
+<script src="js/controlCharts2.js"></script>
+<script src="js/controlCharts3.js"></script>
+<script src="js/controlCharts4.js"></script>
 
 </html>

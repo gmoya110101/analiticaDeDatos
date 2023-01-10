@@ -1,7 +1,7 @@
 /*
-Título: Diagrama de Sankey de varios niveles y manejo de colores.
+Título: Diagrama de Sankey de varios niveles con estilos.
 Objetivo: Observar el comportamiento del diagrama de Sankey con varios niveles y como luce 
-            con diferentes colores.
+            con diferentes estilos.
 Autores: Gerardo Iturribarria Moya y Alan Mitchell Velazco González
 */
 
@@ -72,7 +72,17 @@ function drawChart() {
         sankey: {
             //Para el inicio
             node: {
-                colors: colors//Se inserta el array de colores
+                width: 20,//Grosor del nodo
+                colors: colors,//Se inserta el array de colores
+                label: {//Para cambiar el estilo de las etiquetas
+                    fontName: 'Times-Roman',
+                    fontSize: 20,
+                    color: '#871b47',
+                    bold: true,
+                    italic: true
+                },
+                labelPadding: 30,//Espaciado de etiquetas
+                nodePadding: 50//Espaciado de nodos
             },
             //Para las líneas
             link: {

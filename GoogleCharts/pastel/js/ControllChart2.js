@@ -23,6 +23,8 @@ function drawChart() {
   ]);
 
 var options = {
+  width: 600,
+  height: 400,
   legend: 'none',
   pieSliceText: 'label',
   title: 'Swiss Language Use (100 degree rotation)',

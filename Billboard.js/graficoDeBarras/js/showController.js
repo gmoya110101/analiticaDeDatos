@@ -16,17 +16,17 @@ function muestraEjemplo() {
 
     if (document.getElementById("cmbEjemplos").value == "1") {
         ocultar();
-        document.getElementById("sankey_basic").style.display = 'block';
+        document.getElementById("barChart_1").style.display = 'block';
 
     } else if (document.getElementById("cmbEjemplos").value == "2") {
         ocultar();
-        document.getElementById("sankey_multiple").style.display = 'block';
+        document.getElementById("barChart_2").style.display = 'block';
 
     } else if (document.getElementById("cmbEjemplos").value == "3") {
         ocultar();
-        document.getElementById("sankey_multiple_color").style.display = 'block';
+        document.getElementById("dataOrder").style.display = 'block';
 
-    }
+    } 
 }
 
 

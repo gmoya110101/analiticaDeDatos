@@ -16,17 +16,25 @@ function muestraEjemplo() {
 
     if (document.getElementById("cmbEjemplos").value == "1") {
         ocultar();
-        document.getElementById("sankey_basic").style.display = 'block';
+        document.getElementById("gaugeChart").style.display = 'block';
 
     } else if (document.getElementById("cmbEjemplos").value == "2") {
         ocultar();
-        document.getElementById("sankey_multiple").style.display = 'block';
+        document.getElementById("gaugeArcLength").style.display = 'block';
 
     } else if (document.getElementById("cmbEjemplos").value == "3") {
         ocultar();
-        document.getElementById("sankey_multiple_color").style.display = 'block';
+        document.getElementById("chart").style.display = 'block';
 
-    }
+    } else if (document.getElementById("cmbEjemplos").value == "4") {
+        ocultar();
+        document.getElementById("gaugeStartingAngle").style.display = 'block';
+
+    } else if (document.getElementById("cmbEjemplos").value == "5") {
+        ocultar();
+        document.getElementById("gaugeTypeMulti").style.display = 'block';
+
+    } 
 }
 
 
