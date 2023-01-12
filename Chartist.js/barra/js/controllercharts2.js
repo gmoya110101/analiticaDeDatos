@@ -19,6 +19,8 @@ var data = {
   };
   
   var options = {
+    width:500,
+    height:700,
     seriesBarDistance: 10 //separacion entre graficas
   };
   
@@ -33,4 +35,4 @@ var data = {
     }]
   ];
   
-  new Chartist.Bar('.ct-chart', data, options, responsiveOptions);
+  new Chartist.Bar('.ct-chart2', data, options, responsiveOptions);

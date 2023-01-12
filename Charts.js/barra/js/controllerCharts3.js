@@ -1,4 +1,4 @@
-var ctx = document.getElementById('myChart').getContext('2d');
+var ctx = document.getElementById('myChart3').getContext('2d');
 
 
 

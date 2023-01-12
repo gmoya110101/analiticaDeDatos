@@ -6,10 +6,12 @@ Descripción: Se puede observar una animación realizada con SVG para poder
               dar el efecto de que se va cerrando el círculo.
 */
 
-var chart = new Chartist.Pie('.ct-chart', {
+var chart = new Chartist.Pie('.ct-chart3', {
   series: [10, 20, 50, 20, 5, 50, 15],
   labels: [1, 2, 3, 4, 5, 6, 7]
 }, {
+  width:500,
+  height:700,
   donut: true,
   showLabel: false
 });

@@ -1,21 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/chartist.min.css">
+    <link rel="stylesheet" href="css/chartist.min.css">
+    <script type="text/javascript" src="js/showController.js"></script>
     <script src="../lib/chartist.min.js"></script>
     <title>gr&aacute;fica de pastel </title>
 </head>
+
 <body>
     <h1>Ejemplo de gr&aacute;fica de pastel con chartist.js</h1>
 
-    <div class="ct-chart ct-perfect-fourth"></div>
+    <label>Selecciona un ejemplo a observar:</label>
+    <select id="cmbEjemplos" onchange="muestraEjemplo();">
+        <option value="1" selected>Ejemplo 1</option>
+        <option value="2">Ejemplo 2</option>
+        <option value="3">Ejemplo 3</option>
+        <option value="4">Ejemplo 4</option>
+    </select>
 
-    <!--<script src="js/controllerCharts1.js"></script>-->
-    <!--<script src="js/controllerCharts2.js"></script>-->
-    <script src="js/controllerCharts3.js"></script>-->
-    <!--<script src="js/controllerCharts4.js"></script>-->
+    <div id="bar1" class="contenedor" style="display: block;">
+        <div class="ct-chart ct-perfect-fourth"></div>
+    </div>
+
+    <div id="bar2" class="contenedor">
+        <div class="ct-chart2 ct-perfect-fourth"></div>
+    </div>
+
+    <div id="bar3" class="contenedor">
+        <div class="ct-chart3 ct-perfect-fourth"></div>
+    </div>
+
+    <div id="bar4" class="contenedor">
+        <div class="ct-chart4 ct-perfect-fourth"></div>
+    </div>
+
+
 </body>
+<script src="js/controllerCharts.js"></script>
+<script src="js/controllerCharts2.js"></script>
+<script src="js/controllerCharts3.js"></script>
+<script src="js/controllerCharts4.js"></script>
 </html>

@@ -8,13 +8,15 @@ basta con pasar una opción adicional.
 Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
-new Chartist.Bar('.ct-chart', {
+new Chartist.Bar('.ct-chart6', {
     labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
     series: [
       [5, 4, 3, 7, 5, 10, 3], //datos de la primera gráfica
       [3, 2, 9, 5, 4, 6, 4]//datos de la segunda gráfica
     ]
   }, {
+    width:500,
+    height:700,
     seriesBarDistance: 10,//distancia entre gráficas
     reverseData: true, //las etiquetas cambian de posicion (lo que esta en y poniendo "false")
     horizontalBars: true, //"se pasa lo que esta en X a Y"

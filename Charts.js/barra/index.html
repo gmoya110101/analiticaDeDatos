@@ -5,15 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../lib/chart.js"></script>
+    <script type="text/javascript" src="js/showController.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>Charts.js</title>
 </head>
 <body>
     <h1>Gráficas de barras con Charts.js</h1>
-    <div>
+    <label>Selecciona un ejemplo a observar:</label>
+    <select id="cmbEjemplos" onchange="muestraEjemplo();">
+        <option value="1" selected>Ejemplo 1</option>
+        <option value="2">Ejemplo 2</option>
+        <option value="3">Ejemplo 3</option>
+    </select>
+
+
+
+    <div id="bar" class="contenedor" style="display: block;">
         <canvas id="myChart" width="400" height="100"></canvas>
-        </div>
+    </div>
+
+    <div id="bar2" class="contenedor">
+        <canvas id="myChart2" width="400" height="100"></canvas>
+    </div>
+
+    <div id="bar3" class="contenedor">
+        <canvas id="myChart3" width="400" height="100"></canvas>
+    </div>
+
 </body>
+<script src="js/controllerCharts.js"></script>
 <script src="js/controllerCharts2.js"></script>
+<script src="js/controllerCharts3.js"></script>
 
 <!--https://cdn.jsdelivr.net/npm/chart.js-->
 </html>

@@ -16,6 +16,8 @@ var data = {
   };
   
   var options = {
+    width:500,
+    height:700,
     high: 10, //valores en y positivos
     low: -10, //valores en y negativos 
     axisX: {

@@ -8,7 +8,7 @@ de la serie una encima de la otra fácilmente usando la stackBarspropiedad
  Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
-new Chartist.Bar('.ct-chart', {
+new Chartist.Bar('.ct-chart5', {
     labels: ['Q1', 'Q2', 'Q3', 'Q4'],
     series: [
       [800000, 1200000, 1400000, 1300000],//datos de la primera gráfica
@@ -16,6 +16,8 @@ new Chartist.Bar('.ct-chart', {
       [100000, 200000, 400000, 600000]//datos de la tercera gráfica
     ]
   }, {
+    width:500,
+    height:700,
     stackBars: true,//las graficas se desalinean si esa en false
     axisY: {
       labelInterpolationFnc: function(value) {

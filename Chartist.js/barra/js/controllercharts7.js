@@ -9,7 +9,7 @@ medios!
 Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
-new Chartist.Bar('.ct-chart', {
+new Chartist.Bar('.ct-chart7', {
   labels: ['Quarter 1', 'Quarter 2', 'Quarter 3', 'Quarter 4'],
   series: [
     [5, 4, 3, 7],//datos de la primera gráfica
@@ -19,6 +19,8 @@ new Chartist.Bar('.ct-chart', {
     [4, 1, 2, 1]//datos de la quinta gráfica
   ]
 }, {
+  width:500,
+  height:700,
   // Configuración móvil por defecto
   stackBars: true,
   axisX: {

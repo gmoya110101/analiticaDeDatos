@@ -9,12 +9,14 @@ Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
 // Create a simple bi-polar bar chart
-var chart = new Chartist.Bar('.ct-chart', {
+var chart = new Chartist.Bar('.ct-chart3', {
     labels: ['W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7', 'W8', 'W9', 'W10'],
     series: [
       [1, 2, 4, 8, 6, -2, -1, -4, -6, -2]//datos de la gráfica
     ]
   }, {
+    width:500,
+    height:700,
     high: 10, //valores en y positivos
     low: -10,//valores en y negativos
     axisX: {

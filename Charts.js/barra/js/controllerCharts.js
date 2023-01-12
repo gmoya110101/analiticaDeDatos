@@ -3,6 +3,8 @@ var ctx = document.getElementById('myChart').getContext('2d');
 
  var myBarChart = new Chart(ctx, {
     type: 'bar',
+    width:'900',
+    height:'200',
     data: {
       labels: ['Alan','Gerardo','Giner'],//etiqueta
       datasets:[{

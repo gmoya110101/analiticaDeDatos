@@ -4,18 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/chartist.min.css">
+    <link rel="stylesheet" href="css/chartist.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="../lib/chartist.min.js"></script>
+    <script src="js/showController.js"></script>
     <title>Barra </title>
 </head>
 <body>
     <h1>gráfica de barras con chartist.js</h1>
-     <div class="ct-chart ct-perfect-fourth"></div> 
 
+    <label>Selecciona un ejemplo a observar:</label>
+    <select id="cmbEjemplos" onchange="muestraEjemplo();">
+    <option value="1" selected>Ejemplo 1</option>
+    <option value="2">Ejemplo 2</option>
+    <option value="3">Ejemplo 3</option>
+    <option value="4">Ejemplo 4</option>
+    <option value="5">Ejemplo 5</option>
+    <option value="6">Ejemplo 6</option>
+    <option value="7">Ejemplo 7</option>
+    <option value="8">Ejemplo 8</option>
+    <option value="9">Ejemplo 9</option>
+    </select>
+    
+<div id="bar1" class="contenedor" style="display: block;">
+    <div class="ct-chart ct-perfect-fourth"></div> 
+</div>
+
+<div id="bar2" class="contenedor">
+    <div class="ct-chart2 ct-perfect-fourth"></div> 
+</div>
+
+<div id="bar3" class="contenedor">
+    <div class="ct-chart3 ct-perfect-fourth"></div> 
+</div>
+
+<div id="bar4" class="contenedor">
+    <div class="ct-chart4 ct-perfect-fourth"></div> 
+</div>
+
+<div id="bar5" class="contenedor">
+    <div class="ct-chart5 ct-perfect-fourth"></div> 
+</div>
+
+<div id="bar6" class="contenedor">
+    <div class="ct-chart6 ct-perfect-fourth"></div> 
+</div>
+
+<div id="bar7" class="contenedor">
+    <div class="ct-chart7 ct-perfect-fourth"></div> 
+</div>
+
+<div id="bar8" class="contenedor">
+    <div class="ct-chart8 ct-perfect-fourth"></div> 
+</div>
+
+<div id="bar9" class="contenedor">
+    <div class="ct-chart9 ct-perfect-fourth"></div> 
+</div>
+     
     
     <!--<div class="ct-chart ct-golden-section" id="chart1"></div> -->
     <!--<div class="ct-chart ct-golden-section" id="chart2"></div> -->
     
+    <script src="js/controllerCharts.js"></script>
+    <script src="js/controllerCharts2.js"></script>
+    <script src="js/controllerCharts3.js"></script>
+    <script src="js/controllerCharts4.js"></script>
+    <script src="js/controllerCharts5.js"></script>
+    <script src="js/controllerCharts6.js"></script>
+    <script src="js/controllerCharts7.js"></script>
+    <script src="js/controllerCharts8.js"></script>
     <script src="js/controllerCharts9.js"></script>
 </body>
 </html>

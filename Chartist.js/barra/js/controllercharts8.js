@@ -11,9 +11,11 @@ barra por serie distribuida a lo largo del eje x. Si esta opción
  Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
-new Chartist.Bar('.ct-chart', {
+new Chartist.Bar('.ct-chart8', {
     labels: ['XS', 'S', 'M', 'L', 'XL', 'XXL', 'XXXL'],
     series: [20, 60, 120, 200, 180, 20, 10] //valores de la gráfica
   }, {
+    width:500,
+    height:700,
     distributeSeries: true //muestra la gráfica
     });

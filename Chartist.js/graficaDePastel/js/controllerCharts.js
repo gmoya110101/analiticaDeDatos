@@ -15,6 +15,8 @@ options = {
   width: 300, //configurar el tamaño de la gráfica
   height: 200
 }, {
+  width:500,
+  height:700,
   labelInterpolationFnc: function (value) {
     return Math.round(value / data.series.reduce(sum) * 100) + '%';
   },
