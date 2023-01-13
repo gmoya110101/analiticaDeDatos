@@ -5,12 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../lib/d3.v6.min.js"></script>
-    <script src="../lib/billboard.js"></script>
-    <script type="text/javascript" src="js/showController.js"></script>
-
-    <link rel="stylesheet" href="../css/billboard.css">
-    <link rel="stylesheet" href="../css/style.css">
 
     <title>gr&aacute;fico de indicadores</title>
 </head>
@@ -18,35 +12,19 @@
 <body>
     <h1>Prueba de gr&aacute;fico de indicadores.</h1>
 
-    <label>Selecciona un ejemplo a observar:</label>
-    <select id="cmbEjemplos" onchange="muestraEjemplo();">
-        <option value="1" selected>Ejemplo 1</option>
-        <option value="2">Ejemplo 2</option>
-        <option value="3">Ejemplo 3</option>
-        <option value="4">Ejemplo 4</option>
-        <option value="5">Ejemplo 5</option>
-    </select>
-
-    <div id="gaugeChart" class="contenedor" style="display: block;"></div>
-
-    <div id="gaugeArcLength" class="contenedor"></div>
-
-    <div id="chart" class="contenedor">
-        <div id="gaugeStackData_1"></div>
-        <div id="gaugeStackData_2"></div>
-    </div>
-
-    <div id="gaugeStartingAngle" class="contenedor"></div>
-
-    <div id="gaugeTypeMulti" class="contenedor"></div>
+    <details>
+        <summary>Seleccione un ejemplo a visualizar:</summary>
+        <ul>
+            <li><a href="ejemplo1.html">Gr&aacute;fico de indicadores sencillo</a></li>
+            <li><a href="ejemplo2.html">Gr&aacute;fico de indicadores con longitud de arco</a></li>
+            <li><a href="ejemplo3.html">Gr&aacute;fico de indicadores con datos apilados</a></li>
+            <li><a href="ejemplo4.html">Gr&aacute;fico de indicadores con arco inicial</a></li>
+            <li><a href="ejemplo5.html">Gr&aacute;fico de indicadores con arco múltiple</a></li>
+        </ul>
+    </details>
 
 
 </body>
 
-<script src="js/controlCharts.js"></script><!--Para activar el gráfico sencillo-->
-<script src="js/controlCharts2.js"></script><!--Para activar el gráfico con longitud de arco-->
-<script src="js/controlCharts3.js"></script><!--Para activar el gráfico con datos apilados-->
-<script src="js/controlCharts4.js"></script><!--Para activar el gráfico con arco inicial-->
-<script src="js/controlCharts5.js"></script><!--Para activar el gráfico con arco múltiple-->
 
 </html>

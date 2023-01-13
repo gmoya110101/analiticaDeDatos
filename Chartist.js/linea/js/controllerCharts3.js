@@ -14,8 +14,8 @@ Objetivo: Las gráficas de línea son útiles cuando quieres mostrar los cambios
     series: [[100, 120, 180, 200]]
   },
    options = {
-    width: 300, //configurar el tamaño de la gráfica
-    height: 200
+    width: 600, //configurar el tamaño de la gráfica
+    height: 600
   },
 
   );

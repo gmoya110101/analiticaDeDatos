@@ -31,7 +31,9 @@ var times = function(n) {
       labelInterpolationFnc: function(value, index) {
         return index % 13 === 0 ? 'W' + value : null;
       }
-    }
+    },
+    width: 600,
+    heigth: 600
   };
   
   var responsiveOptions = [
@@ -44,4 +46,4 @@ var times = function(n) {
     }]
   ];
   
-  new Chartist.Line('.ct-chart', data, options, responsiveOptions);
+  new Chartist.Line('.ct-chart7', data, options, responsiveOptions);

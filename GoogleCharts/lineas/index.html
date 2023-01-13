@@ -5,13 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-
-  <script type="text/javascript" src="../lib/loader.js"></script>
-  <script type="text/javascript" src="js/controllerButton.js"></script>
-  <script type="text/javascript" src="js/controllerChart.js"></script>
-
-  <script type="text/javascript" src="js/controllerChart2.js"></script>
+  <title>Gr&aacute;ficos de l&iacute;neas con GoogleChart</title>
+ 
 </head>
 
 <body>
@@ -19,17 +14,17 @@
   <h1>Pueba de gr&aacute;ficas de l&iacute;neas</h1><br>
 
 
-<label>Selecciona un ejemplo a observar:</label>
-  <select id="cmbEjemplos" onchange="muestraEjemplo();">
-    <option value="1" selected>Ejemplo 1</option>
-    <option value="2">Ejemplo 2</option>
-  </select>
-<br>
-  <div id="chart_div" style="width: 990px; height: 500px;"></div>
+  <details>
+    <summary>Seleccione un ejemplo a visualizar:</summary>
+    <ul>
+      <li><a href="ejemplo1.html">Gr&aacute;fica de l&iacute;neas</a></li>
+      <li><a href="ejemplo2.html">Gr&aacute;fico personalizado</a></li>
+    </ul>
+  </details>
 
+  <br>
+  
 
-  <div id="encapsula" style="height: 400px; width: 600px; display: none;">
-    <div id="vis_div" style="height: 400px; width: 600px;"></div>
   </div>
 </body>
 

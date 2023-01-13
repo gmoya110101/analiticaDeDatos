@@ -4,9 +4,9 @@ const data = {
       'Comer',
       'Pistear',
       'Dormir',
-      'Decir mamadas',
-      'Hacerse pendejo',
-      'Cagarla',
+      'Estudiar',
+      'Leer',
+      'Pintar',
       'Correr'
     ],
     datasets: [{

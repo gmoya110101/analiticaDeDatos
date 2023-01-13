@@ -23,11 +23,11 @@ var data = {
 // Como opciones, actualmente solo establecemos un tamaño estático de 300x200 px. También podemos omitir esto y usar contenedores de relación de aspecto.
 // como viste en el ejemplo anterior
 var options = {
-  width: 300,
-  height: 200
-};
+  width: 600,
+  heigth: 600
+}
 
 // Crea un nuevo objeto de gráfico de líneas donde como primer parámetro pasamos un selector
 // que se está resolviendo en nuestro elemento contenedor de gráfico. El segundo parámetro
 // es el objeto de datos real. Como tercer parámetro pasamos nuestras opciones personalizadas.
-new Chartist.Line('.ct-chart', data, options);
+new Chartist.Line('.ct-chart2', data, options);

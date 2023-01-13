@@ -12,11 +12,15 @@ Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
 
 
-var chart = new Chartist.Line('.ct-chart', {
+var chart = new Chartist.Line('.ct-chart10', {
   labels: [1, 2, 3, 4, 5],
   series: [
     [12, 9, 7, 8, 5]
   ]
+},
+{
+  width: 600,
+  heigth: 600
 });
 
 // Escuchar los eventos de sorteo que emite el gráfico Chartist

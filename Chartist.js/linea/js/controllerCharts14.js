@@ -11,7 +11,7 @@ más detalles.
 
 Autor: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 */
-var chart = new Chartist.Line('.ct-chart', {
+var chart = new Chartist.Line('.ct-chart14', {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8'],
 // Nombrar la serie con la notación de matriz de objetos de serie
 series: [{
@@ -25,8 +25,9 @@ series: [{
     data: [2, 4, 3, 1, 4, 5, 3, 2]
   }]
 }, {
-  fullWidth: true,
 
+  width: 600,
+  heigth: 600,
 // Dentro de las opciones de series puedes usar los nombres de las series
   // para especificar la configuración que solo se usará para el
   // serie específica.
@@ -42,7 +43,8 @@ series: [{
       showPoint: false
     }
   }
-}, [
+},
+ [
 
 // Incluso puede usar anulaciones de configuración receptivas para
   // ¡personaliza aún más la configuración de tu serie!
