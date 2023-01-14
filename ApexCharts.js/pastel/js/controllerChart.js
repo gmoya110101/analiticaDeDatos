@@ -8,8 +8,6 @@ Autores: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 
 */
 
-
-
 var options = {
     chart: {
       type: 'pie',//tipo de gráfica
