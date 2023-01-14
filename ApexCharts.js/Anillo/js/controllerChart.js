@@ -16,7 +16,7 @@ Autores: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 var options = {
     chart: {
       type: 'donut',//tipo de gráfica
-      width:'75%'//tamaño de la gráfica 
+      width:'50%'//tamaño de la gráfica 
 
     },
    /* plotOptions: { // funcion para cambiar el tamaño del centro

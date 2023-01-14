@@ -20,7 +20,7 @@ var options1 = {
     type: "area",
     height: 230,
     foreColor: "#ccc",
-    width: '65%',
+    width: '50%',
     toolbar: {
       autoSelected: "pan",
       show: false
@@ -81,6 +81,7 @@ var options2 = {
     id: "chart1",
     height: 130,
     type: "bar",
+    width:'50%',
     foreColor: "#ccc",
     brush: {
       target: "chart2",

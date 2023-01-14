@@ -11,8 +11,11 @@ Autores: Alan Mitchell Velasco Gonzalez y Gerardo Iturribarria Moya
 
 var options = {
     chart: {
+      
         height: 350,
+        
         type: 'bubble',
+        
     },
           series: [{     
           name: 'Bubble1',

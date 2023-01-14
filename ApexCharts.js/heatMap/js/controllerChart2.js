@@ -120,7 +120,7 @@ var options = {
     },
   };
   
-  var chart = new ApexCharts(document.querySelector("#chart"), options);
+  var chart = new ApexCharts(document.querySelector("#chart2"), options);
   chart.render();
   
   function generateData(count, yrange) {//Función necesaria para los datos
