@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../lib/apexcharts.js"></script><!--Así se invoca la biblioteca-->
+    <script type="text/javascript" src="js/showController.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Prueba de gr&aacute;fico de velas con ApexCharts</title>
 </head>
@@ -14,15 +16,27 @@
 
     <h1>Nuestra primera prueba de gr&aacute;fico de velas.</h1>
 
-    <div id="chart"></div>
-    <script src="js/controllerChart.js"></script><!--Para activar el primer ejemplo-->
-    <!--<script src="js/controllerChart2.js"></script>--><!--Para activar el segundo ejemplo-->
-    <!--<div id="chart-candlestick"></div>
-    <div id="chart-bar"></div>
-    <script src="js/controllerChart3.js"></script>--><!--Para activar el tercer ejemplo-->
-    
 
+    <label>Selecciona un ejemplo a observar:</label>
+    <select id="cmbEjemplos" onchange="muestraEjemplo();">
+        <option value="1" selected>Ejemplo 1: Gráfica de velas sencillo</option>
+        <option value="2">Ejemplo 2: Gráfica de velas combinado</option>
+        <option value="3">Ejemplo 3: Gráfica de velas avanzado</option>
+    </select>
+
+    <div id="chart" class="contenedor" style="display: block;"></div>
+
+    <div id="chart2" class="contenedor"></div>
+
+    <div id="chart3" class="contenedor">
+        <div id="chart-candlestick"></div>
+        <div id="chart-bar"></div>
+    </div>
 
 </body>
+
+<script src="js/controllerChart.js"></script><!--Para activar el primer ejemplo-->
+<script src="js/controllerChart2.js"></script><!--Para activar el segundo ejemplo-->
+<script src="js/controllerChart3.js"></script><!--Para activar el tercer ejemplo-->
 
 </html>

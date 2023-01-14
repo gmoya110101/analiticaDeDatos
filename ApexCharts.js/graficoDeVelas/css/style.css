@@ -8,3 +8,9 @@ body {
     max-width: 650px;
     margin: 35px auto;
 }
+
+.contenedor{
+    width: 900px;
+    height: 500px;
+    display: none;
+  }
