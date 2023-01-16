@@ -2,7 +2,7 @@
 const data = {
     labels: [
       'Comer',
-      'Pistear',
+      'Trabajar',
       'Dormir',
       'Estudiar',
       'Leer',
