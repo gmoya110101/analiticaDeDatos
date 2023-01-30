@@ -24,6 +24,7 @@ const $grafica = document.getElementById("myChart");
 const etiquetas = ["Ventas", "Donaciones", "Trabajos", "Publicidad"]
 // Podemos tener varios conjuntos de datos. Comencemos con uno
 const datosIngresos = {
+    
     data: [1500, 400, 2000, 7000], // La data es un arreglo que debe tener la misma cantidad de valores que la cantidad de etiquetas
     // Ahora debería haber tantos background colors como datos, es decir, para este ejemplo, 4
     backgroundColor: [
