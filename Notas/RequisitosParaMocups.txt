@@ -1,0 +1,35 @@
+¿Qué cosas se deben crear para los mockups?
+
+	* Página de login.
+
+	* Página de Inicio. (Aclarar que el 		          menú es desplegable)
+
+	* Página de visualización de alumnos.
+		+ Alumnos incritos.
+		+ Alumnos por edad.
+		+ Alumnos por sexo.
+		+ Alumnos por institución educativa.
+		+ Historial de navegación.
+
+	* Página de visualización de profesores.
+		+ Profesores con más recursos.
+		+ Profesores más seguidos.
+		+ Fecha de ingresos a la plataforma. 
+
+	* Página de visualización de cursos.
+		+ Más buscados.
+		+ Más vizualizados.
+		+ Dispositivos en que los visualizan.
+		+ Más populares.
+		+ Más descargados.
+		+ Mejores calificados.
+		+ Tiempo de visualización del curso.
+		
+	* Página de visualización de recursos.
+		+ Más buscados.
+		+ Más vizualizados.
+		+ Dispositivos en que los visualizan.
+		+ Más populares.
+		+ Más descargados.
+		+ Mejores calificados.
+		+ Tiempo de visualización del recurso.

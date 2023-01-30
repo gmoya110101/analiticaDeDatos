@@ -1,0 +1,8 @@
+		DETALLES.
+* GoogleCharts no cuenta con todas las gráficas que nos pide.
+
+* AnyCharts cuenta con varias pero no con todas. (Se encontró la biblioteca gratis)
+
+* En dado caso, se recomiendan estás gráficas: 
+	+ (Insertar gráficas)
+*  
