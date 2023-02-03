@@ -1,8 +1,22 @@
 		DETALLES.
+
 * GoogleCharts no cuenta con todas las gráficas que nos pide.
 
 * AnyCharts cuenta con varias pero no con todas. (Se encontró la biblioteca gratis)
 
 * En dado caso, se recomiendan estás gráficas: 
 	+ (Insertar gráficas)
-*  
+*  ¿Qué framework usar?
+	+ Angular
+		° No tenemos mucha experiencia.
+		° Será un poco más tardado el proyecto.
+		° Será una aplicación más rápida.
+		° Se pueden usar cosas de la biblioteca "Material".
+		° Se tendrá que migrar a otra forma para leer archivos JSON ya que se usó JQuery para leerlos.
+	+ JQuery
+		° Se tiene más experiencia. 
+		° El tiempo de entrega puede ser menor.
+		° Puede que sea un poco más pesada la aplicación.
+		° Tiene una biblioteca con estilos css predetermidos que son visualmente atractivos.
+		° No será necesario migrar la función de lectura de archivos JSON.
+	+ 

@@ -2,7 +2,7 @@
 
 	* Página de login.
 
-	* Página de Inicio. (Aclarar que el 		          menú es desplegable)
+	* Página de Inicio. (Aclarar que el menú es desplegable)
 
 	* Página de visualización de alumnos.
 		+ Alumnos incritos.
