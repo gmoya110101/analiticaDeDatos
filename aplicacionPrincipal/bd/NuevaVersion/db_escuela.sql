@@ -32,8 +32,7 @@ CREATE TABLE `alumnos` (
   `semestre` varchar(45) NOT NULL,
   `nombreEscuela` varchar(45) NOT NULL,
   PRIMARY KEY (`idalumnos`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
+);
 
 --
 -- Dumping data for table `alumnos`
@@ -62,8 +61,7 @@ CREATE TABLE `calificaciones` (
   KEY `idmaterias_idx` (`idmaterias`),
   CONSTRAINT `idalumnos` FOREIGN KEY (`idalumnos`) REFERENCES `alumnos` (`idalumnos`),
   CONSTRAINT `idmaterias` FOREIGN KEY (`idmaterias`) REFERENCES `materias` (`idmaterias`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
+);
 
 --
 -- Dumping data for table `calificaciones`
@@ -90,8 +88,7 @@ CREATE TABLE `cursos` (
   `areaCarrera` varchar(45) NOT NULL,
   `clave` varchar(45) NOT NULL,
   PRIMARY KEY (`idcursos`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
+) ;
 
 --
 -- Dumping data for table `cursos`
@@ -116,8 +113,7 @@ CREATE TABLE `materias` (
   `areaCarrera` varchar(45) NOT NULL,
   `clave` varchar(45) NOT NULL,
   PRIMARY KEY (`idmaterias`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
+);
 
 --
 -- Dumping data for table `materias`
@@ -145,8 +141,7 @@ CREATE TABLE `profesores` (
   `carrera` varchar(45) NOT NULL,
   `nombreEscuela` varchar(45) NOT NULL,
   PRIMARY KEY (`idprofesores`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
+) ;
 
 --
 -- Dumping data for table `profesores`
@@ -173,8 +168,7 @@ CREATE TABLE `recursos` (
   `areaCarrera` varchar(45) NOT NULL,
   `clave` varchar(45) NOT NULL,
   PRIMARY KEY (`idrecursos`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
+);
 
 --
 -- Dumping data for table `recursos`
