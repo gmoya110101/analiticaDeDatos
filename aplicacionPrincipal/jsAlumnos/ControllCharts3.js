@@ -60,7 +60,7 @@ $.ajax({
   method: "POST",
   dataType: "JSON",
   success: function (data) {
-    console.log(data);
+    //console.log(data);
     drawChart(data);
   }
 });
@@ -75,17 +75,28 @@ function drawChart(chart_data) {
     ['Sleep', 7]
   ]);*/
 
+
   var jsonData = chart_data;
-  var data = new google.visualization.DataTable();
-  data.addColumn('string', 'Carrera');
-  data.addColumn('number', 'total');
+  const arrayJson = [['Carrera', 'Total']];
+
+
+  //var data = new google.visualization.DataTable();
+  /* data.addColumn('string', 'Carrera');
+   data.addColumn('number', 'total');*/
 
   $.each(jsonData, function (i, jsonData) {
     var carrera = jsonData.carrera;
     var total = parseInt($.trim(jsonData.total));
-    data.addRows([[carrera, total]]);
+    //data.addRows([[carrera, total]]);
+    arrayJson.push([carrera, total])
 
   });
+
+  console.log(arrayJson);
+
+  var data = google.visualization.arrayToDataTable([
+    arrayJson
+  ]);
 
   var options = {
     width: 600,
