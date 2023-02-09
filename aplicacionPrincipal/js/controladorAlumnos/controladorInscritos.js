@@ -2,7 +2,7 @@ google.charts.load("current", { packages: ["corechart"] });
 google.charts.setOnLoadCallback(drawChart);
 
 $.ajax({
-  url: "controlador/controlador_grafico.php",
+  url: "controlador/controladorAlumnos/controladorAlumnosIncritos.php",
   method: "POST",
   dataType: "JSON",
   success: function (data) {
@@ -14,14 +14,16 @@ function drawChart(chart_data) {
   var jsonData = chart_data;
   var data = new google.visualization.DataTable();
   data.addColumn('string', 'Carrera');
-  data.addColumn('number', 'total');
+  data.addColumn('number', 'Total');
 
   $.each(jsonData, function (i, jsonData) {
     var carrera = jsonData.carrera;
     var total = parseInt($.trim(jsonData.total));
     data.addRows([[carrera, total]]);
+    
   });
 
+  
   var options = {
     width: 700,
     height: 500,
