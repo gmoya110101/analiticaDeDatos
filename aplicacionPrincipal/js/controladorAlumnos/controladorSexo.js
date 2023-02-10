@@ -31,7 +31,7 @@ function drawChart(chart_data, chart_titulo) {
 
     var options = {
         title: chart_titulo,
-        colors: ['#AB0D06', '#007329', '#F5E605'],
+        colors: ['#0EF707', '#007329', '#F5E605'],
         hAxis: { title: "Nombre" },
         vAxis: { title: "Cantidad" },
 
